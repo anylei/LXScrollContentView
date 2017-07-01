@@ -94,6 +94,7 @@
         scrollView.scrollsToTop = NO;
         scrollView.showsHorizontalScrollIndicator = NO;
         scrollView.showsVerticalScrollIndicator = NO;
+        scrollView.scrollEnabled = NO;
         [self addSubview:scrollView];
         _scrollView = scrollView;
     }
